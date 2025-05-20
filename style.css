@@ -223,4 +223,22 @@
     font-size: 1.2rem;
     color: #62d0ff;
   }
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-links a i {
+  font-size: 28px;
+  color: #25D366; /* mesma cor do botão WhatsApp */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a i:hover {
+  color: #128C7E; /* tom mais escuro no hover */
+  transform: scale(1.2);
+}
+
   
