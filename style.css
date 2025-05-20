@@ -231,8 +231,8 @@
 }
 
 .social-links a i {
-  font-size: 28px;
-  color: #25D366; /* mesma cor do botão WhatsApp */
+  font-size: 40px;
+  color: #25aad3; /* mesma cor do botão WhatsApp */
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
