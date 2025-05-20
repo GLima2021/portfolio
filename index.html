@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyPortfolioDEV</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Tipografia opcional -->
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bibliotecas externas -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.1.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+  <div id="tsparticles"></div>
+
+  <header>
+    <div class="logo">Gabriel Lima - Portifólio</div>
+    <div class="hamburger">&#9776;</div>
+    <nav>
+      <a href="#hero">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#projects">Projetos</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contato</a>
+      <button id="theme-toggle">Tema</button>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Hi, I’m a <span class="typing"></span></h1>
+    <p>Desenvolvedor web apaixonado por design e performance.</p>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Mim</h2>
+    <p>Tenho experiência como desenvolvedor web e também como professor de inglês. Desenvolvo sites modernos com HTML, CSS, JS e criei um app para organizar partidas de futebol (Pelada VIP).</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projetos</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="screenshot1.png" alt="Carla Maria Nail Designer">
+        <h3>Carla Maria - Nail Designer</h3>
+      </div>
+      <div class="project-card">
+        <img src="screenshot2.png" alt="Pelada VIP">
+        <h3>Pelada VIP App</h3>
+      </div>
+      <div class="project-card">
+        <img src="screenshot3.jpg" alt="Admin Clicks Dashboard">
+        <h3>Dashboard de Leads</h3>
+      </div>
+      <div class="project-card">
+        <img src="screenshot4.jpg" alt="Portfólio Fictício">
+        <h3>Portfólio Criativo</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- trecho atualizado -->
+  <section id="stack">
+    <h2>Minha Stack</h2>
+    <div class="stack-icons">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" data-tech="html" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" data-tech="css" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" data-tech="javascript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" data-tech="flutter" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" data-tech="php" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" data-tech="mysql" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQL" data-tech="sql" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" data-tech="github" />
+    </div>
+  
+    <!-- Pop-up flutuante -->
+    <div id="tech-popup" class="popup hidden">
+      <span class="close-popup">&times;</span>
+      <h3 id="popup-title"></h3>
+      <p id="popup-description"></p>
+    </div>
+  </section>
+  
+  
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato comigo para parcerias, freelas ou só bater um papo!</p>
+    <a href="https://wa.me/81985307047" target="_blank" class="btn">Me Chame no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gabriel Lima - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="animation.js"></script>
+</body>
+</html>
