@@ -1,118 +1,845 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MyPortfolioDEV</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gabriel Lima - Desenvolvedor Web Full Stack, Especialista em E-Commerce, Automação e Integrações. 10+ projetos entregues com 100% satisfação. Disponível para vagas dev, freelancer ou roles em Automação e Vendas Digitais."
+    />
+    <meta
+      name="keywords"
+      content="Desenvolvedor Web, Full Stack Developer, E-Commerce, Flutter, Firebase, Freelancer, Automação, WhatsApp API, Recife, HTML5, CSS3, JavaScript, Closer, Vendedor Digital"
+    />
+    <meta
+      property="og:title"
+      content="Gabriel Lima - Dev Web Full Stack, E-Commerce e Especialista em Automação"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio com 10+ projetos reais de E-Commerce, Landing Pages de conversão, Apps em Flutter e Soluções de Automação que geraram resultados."
+    />
+    <meta
+      property="og:image"
+      content="https://getportfoliohere.netlify.app/img/perfil.jpg"
+    />
+    <meta property="og:url" content="https://getportfoliohere.netlify.app/" />
+    <meta name="author" content="Gabriel Lima" />
+    <title>Gabriel Lima - Dev Web Full Stack & Especialista em Automação</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.1.0/tsparticles.bundle.min.js"></script>
+  </head>
+  <body>
+   
+    <div id="tsparticles"></div>
 
+    <header>
+      <div class="logo">Gabriel Lima - Dev</div>
+      <div class="hamburger">&#9776;</div>
+      <nav>
+        <a href="#hero">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#skills">Stack</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
 
-  <!-- Tipografia opcional -->
-  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+    <section id="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1><span class="text-accent">Gabriel Lima</span></h1>
+          <h2>
+            Desenvolvedor Web Full Stack
+            <span class="accent">&</span> Especialista em Automação
+          </h2>
+          <p class="hero-subtitle">
+            Crio e-commerce que vendem, landing pages que capturam leads e
+            sistemas que automatizam.
+          </p>
 
-  <!-- Bibliotecas externas -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.1.0/tsparticles.bundle.min.js"></script>
-</head>
-<body>
-  <div id="tsparticles"></div>
+          <div class="hero-stats-mini">
+            <div>
+              <strong>10+</strong>
+              <p>Projetos</p>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <p>Satisfação</p>
+            </div>
+            <div>
+              <strong>8+</strong>
+              <p>Tecnologias</p>
+            </div>
+          </div>
 
-  <header>
-    <div class="logo">Gabriel Lima - Portifólio</div>
-    <div class="hamburger">&#9776;</div>
-    <nav>
-      <a href="#hero">Início</a>
-      <a href="#about">Sobre</a>
-      <a href="#projects">Projetos</a>
-      <a href="#stack">Stack</a>
-      <a href="#contact">Contato</a>
-      <button id="theme-toggle">Tema</button>
-    </nav>
-  </header>
-
-  <section id="hero">
-    <h1>Hi, I’m a <span class="typing"></span></h1>
-    <p>Desenvolvedor web apaixonado por design e performance.</p>
-  </section>
-
-  <section id="about">
-    <h2>Sobre Mim</h2>
-    <p>Tenho experiência como desenvolvedor web e também como professor de inglês. Desenvolvo sites modernos com HTML, CSS, JS e criei um app para organizar partidas de futebol (Pelada VIP).</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projetos</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="img/screenshot1.png" alt="Carla Maria Nail Designer">
-        <h3>Carla Maria - Nail Designer</h3>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary"
+              >Ver Portfólio Completo</a
+            >
+            <a href="https://wa.me/5581971031076" class="btn btn-secondary"
+              >Conversar no WhatsApp</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="img/perfil.jpg"
+            alt="Gabriel Lima - Desenvolvedor Web"
+            class="profile-pic"
+          />
+        </div>
       </div>
-      <div class="project-card">
-        <img src="img/screenshot2.png" alt="Pelada VIP">
-        <h3>Pelada VIP App</h3>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <p class="section-subtitle">Quem Sou e Por Que Sou Diferente</p>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Sou <strong>Desenvolvedor Web Full Stack</strong> especializado em
+              criar soluções que <strong>realmente funcionam</strong> – websites
+              que vendem, apps que escalam, processos que automatizam.
+            </p>
+
+            <p>
+              Nos últimos <strong>3+ anos</strong>, construí
+              <strong>10+ projetos</strong> que geraram crescimento mensurável
+              para pequenas e médias empresas, com foco em
+              <strong>ROI, performance e resultados tangíveis</strong>.
+            </p>
+
+            <h3>💼 Áreas de Atuação</h3>
+            <div class="expertise-areas">
+              <div class="expertise-item">
+                <h4>Desenvolvedor Web & Full Stack</h4>
+                <p>
+                  HTML5, CSS3, JavaScript, PHP, MySQL | Websites responsivos,
+                  landing pages otimizadas, e-commerce com conversão
+                </p>
+              </div>
+              <div class="expertise-item">
+                <h4>E-Commerce & Vendas Digitais</h4>
+                <p>
+                  Lojas virtuais com carrinho, integração de pagamento, gestão
+                  de produtos, WhatsApp para vendas
+                </p>
+              </div>
+              <div class="expertise-item">
+                <h4>Automação & Integrações</h4>
+                <p>
+                  WhatsApp API, CRM Integration, Lead Capture, Webhooks |
+                  Processos que escalam automaticamente
+                </p>
+              </div>
+              <div class="expertise-item">
+                <h4>Mobile & Backend</h4>
+                <p>
+                  Flutter, Firebase (Auth, Database, Storage) | Apps com
+                  autenticação real e banco de dados
+                </p>
+              </div>
+              <div class="expertise-item">
+                <h4>Vendedor Digital / Closer</h4>
+                <p>
+                  Funis de vendas automatizados, comunicação consultiva,
+                  otimização de KPIs e conversão
+                </p>
+              </div>
+              <div class="expertise-item">
+                <h4>Educação & Mentoria</h4>
+                <p>
+                  Professor de inglês | Ensino comunicativo, fluência
+                  conversacional, business English
+                </p>
+              </div>
+            </div>
+
+            <h3>📊 Números que Falam</h3>
+            <ul class="about-highlights">
+              <li><strong>100%</strong> satisfação de clientes</li>
+              <li><strong>10+</strong> projetos entregues no prazo</li>
+              <li>
+                <strong>300%+</strong> crescimento em alguns clientes (ex: Lee
+                Cortes)
+              </li>
+              <li><strong>0</strong> projetos abandonados</li>
+              <li><strong>1.500+</strong> horas de desenvolvimento prático</li>
+              <li>
+                <strong>15-20</strong> leads gerados/mês via sistemas criados
+              </li>
+            </ul>
+
+            <h3>🎓 Trajetória & Aprendizado Contínuo</h3>
+            <p>
+              Comecei como <strong>freelancer solo</strong> em 2023, acumulando
+              experiência prática em projetos reais. Hoje combino
+              <strong>desenvolvimento técnico sólido</strong> com
+              <strong>mentalidade de negócio</strong>
+              (entendo ROI, conversão, escalabilidade).
+            </p>
+            <p>
+              Aprendizado através de: <strong>Projetos práticos</strong> |
+              <strong>Autodidatismo estruturado</strong> |
+              <strong>Cursos avançados</strong> (Flutter, Node.js em andamento)
+              | <strong>Comunidade dev</strong>
+            </p>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <h4>10+</h4>
+              <p>Projetos Deployados</p>
+            </div>
+            <div class="stat-card">
+              <h4>100%</h4>
+              <p>Clientes Satisfeitos</p>
+            </div>
+            <div class="stat-card">
+              <h4>8+</h4>
+              <p>Tecnologias</p>
+            </div>
+            <div class="stat-card">
+              <h4>3+</h4>
+              <p>Anos Dev</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="project-card">
-        <img src="img/screenshot3.png" alt="Admin Clicks Dashboard">
-        <h3>Dashboard de Leads</h3>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projetos em Destaque</h2>
+        <p class="section-subtitle">
+          Soluções reais que geraram impacto para negócios
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/realce.png" alt="Realce Pink" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>Realce Pink - Semijoias Premium</h3>
+                <span class="project-badge">🛍️ E-Commerce</span>
+              </div>
+              <div class="project-context">
+                <small
+                  ><strong>📋 Contexto:</strong> Freelancer solo | Full Stack |
+                  3 semanas</small
+                >
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Bruna (proprietária) não tinha
+                presença digital. Perdia vendas para concorrentes online,
+                enfrentava dificuldade em gerenciar catálogo manualmente, sem
+                histórico de vendas.
+              </p>
+              <p><strong>✅ Solução Técnica:</strong></p>
+              <ul>
+                <li>
+                  E-commerce responsivo com catálogo de 50+ produtos (sem CMS)
+                </li>
+                <li>Carrinho com atualização em tempo real (localStorage)</li>
+                <li>
+                  Integração <strong>WhatsApp API</strong> para pedidos diretos
+                </li>
+                <li>Admin simples para gerenciar produtos e estoque</li>
+                <li>Design elegante e sofisticado (marca alinhada)</li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript Vanilla</span>
+                <span>WhatsApp API</span>
+                <span>Netlify Deploy</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> Site online em 3 semanas | 50
+                produtos gerenciados | 100% responsivo | Cliente expandiu vendas
+                mensais | Redução de 80% no tempo de atendimento
+              </p>
+              <a
+                href="https://realcepink.netlify.app/"
+                target="_blank"
+                class="project-link"
+                >Visitar Site <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/zn.png" alt="ZN Importados" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>ZN Importados - Loja de Perfumes</h3>
+                <span class="project-badge">🛍️ E-Commerce</span>
+              </div>
+              <div class="project-context">
+                <small
+                  ><strong>📋 Contexto:</strong> Freelancer solo | Full Stack |
+                  4 semanas | Projeto complexo</small
+                >
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Startup de decants/perfumes premium
+                precisava de plataforma robusta para gerenciar 70+ produtos com
+                múltiplas categorias, marcas e tipos. Necessidade de filtros
+                avançados e integração de pagamento.
+              </p>
+              <p><strong>✅ Solução Técnica:</strong></p>
+              <ul>
+                <li>Catálogo dinâmico com 70+ perfumes árabes e importados</li>
+                <li>
+                  Sistema de filtros avançados (marca, tipo, linha, preço)
+                </li>
+                <li>
+                  Gestão visual de estoque com indicador de disponibilidade em
+                  tempo real
+                </li>
+                <li>
+                  Integração <strong>WhatsApp para pedidos</strong> e suporte
+                  pós-venda
+                </li>
+                <li>Design premium que comunica qualidade</li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>DOM Manipulation</span>
+                <span>Netlify</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> Plataforma processando vendas
+                diárias | 2.000+ acessos/mês | Cliente conquistou visibilidade
+                regional | Redução de logística manual em 60%
+              </p>
+              <a
+                href="https://znimportados.netlify.app/"
+                target="_blank"
+                class="project-link"
+                >Visitar Site <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/lee.png" alt="Lee Cortes" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>Lee Cortes - Barbearia Premium</h3>
+                <span class="project-badge">💼 Serviços</span>
+              </div>
+              <div class="project-context">
+                <small
+                  ><strong>📋 Contexto:</strong> Freelancer solo | Design +
+                  Frontend + Backend | 3 semanas</small
+                >
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Lee, barbeiro com 8+ anos de
+                experiência, não tinha presença online. Perdia clientes que
+                buscavam conhecer trabalho anterior e agendar online.
+                Concorrência estruturada digitalmente.
+              </p>
+              <p><strong>✅ Solução Técnica:</strong></p>
+              <ul>
+                <li>
+                  Website profissional com galeria de 30+ trabalhos (fotos de
+                  qualidade)
+                </li>
+                <li>
+                  Tabela de preços clara (5 categorias de serviços com detalhes)
+                </li>
+                <li>
+                  Integração agendamento direto pelo <strong>WhatsApp</strong>
+                </li>
+                <li>
+                  Seção "Sobre" que constrói credibilidade (experiência,
+                  diferenciais)
+                </li>
+                <li>
+                  Feed Instagram integrado para mostrar trabalhos recentes
+                </li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Design Responsivo</span>
+                <span>Instagram API</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong>
+                <strong>⭐ 300% aumento em agendamentos</strong> pós-launch |
+                Cliente se consolidou como referência na região | Redução de
+                cancellations (confirmação automática)
+              </p>
+              <a
+                href="https://leecortes.netlify.app/"
+                target="_blank"
+                class="project-link"
+                >Visitar Site <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/resolve.png" alt="Resolve Clima" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>Resolve Clima - Assistência Técnica</h3>
+                <span class="project-badge">💼 Serviços</span>
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Empresa de climatização sem
+                visibilidade online. Perdia oportunidades de capturar leads
+                qualificados de buscas regionais.
+              </p>
+              <p><strong>✅ Solução:</strong></p>
+              <ul>
+                <li>Website com 6 serviços principais bem apresentados</li>
+                <li>Galeria de trabalhos realizados (5 fotos)</li>
+                <li>Formulário inteligente de solicitação de serviço</li>
+                <li>Seção "Sobre" que comunica experiência (12 anos)</li>
+                <li>Integração WhatsApp para leads chegarem direto</li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Form Handling</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> Site gerando 15-20
+                solicitações/mês. ROI excelente em captação.
+              </p>
+              <a
+                href="https://resolveclima.netlify.app/"
+                target="_blank"
+                class="project-link"
+                >Visitar Site <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/pedroclima.png" alt="Pedro Clima" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>Pedro Clima - Refrigeração & Climatização</h3>
+                <span class="project-badge">💼 Serviços</span>
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Técnico experiente sem presença
+                digital. Perdia clientes que buscavam online e não conseguia se
+                destacar.
+              </p>
+              <p><strong>✅ Solução:</strong></p>
+              <ul>
+                <li>Website profissional com 6 serviços de climatização</li>
+                <li>Tabela de preços detalhada com todos os serviços</li>
+                <li>Formulário de solicitação otimizado</li>
+                <li>Integração WhatsApp para contato imediato</li>
+                <li>Informações de cobertura geográfica clara</li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> Aumento significativo em
+                consultas de orçamento. Cliente expandiu área de atendimento.
+              </p>
+              <a
+                href="https://pedrorefrigera.netlify.app/"
+                target="_blank"
+                class="project-link"
+                >Visitar Site <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/screenshot2.png" alt="Pelada VIP" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>Pelada VIP - App de Futebol</h3>
+                <span class="project-badge">📱 Mobile App</span>
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Amigos organizavam partidas via
+                WhatsApp - processo confuso, desorganizado, perdia-se histórico
+                de jogos.
+              </p>
+              <p><strong>✅ Solução:</strong></p>
+              <ul>
+                <li>App mobile intuitivo para criar e gerenciar partidas</li>
+                <li>Sistema de escalação automática de jogadores</li>
+                <li>Histórico de partidas com estatísticas</li>
+                <li>Notificações em tempo real</li>
+                <li>Autenticação segura de usuários</li>
+                <li>Sincronização em tempo real com Firebase</li>
+              </ul>
+              <div class="tech-badges">
+                <span>Flutter</span>
+                <span>Firebase Auth</span>
+                <span>Realtime DB</span>
+                <span>Cloud Storage</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> App consolidado com grupo ativo
+                de jogadores. Proof of concept bem-sucedido em mobile + backend.
+              </p>
+              <span class="project-link disabled"
+                ><i class="fas fa-lock"></i> Privado (GitHub)</span
+              >
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/loja.png" alt="DANORTE Recife" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>DANORTE Recife - Loja Virtual</h3>
+                <span class="project-badge">🛍️ E-Commerce</span>
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Loja física precisava expandir
+                negócio para digital. Busca por plataforma que representasse a
+                marca e facilitasse vendas online.
+              </p>
+              <p><strong>✅ Solução:</strong></p>
+              <ul>
+                <li>E-commerce responsivo com catálogo de produtos</li>
+                <li>Sistema de carrinho com integração de pagamento</li>
+                <li>Design visual que representa a marca</li>
+                <li>Gestão simplificada de produtos</li>
+                <li>Integração WhatsApp para suporte</li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Design Premium</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> Plataforma funcional expandindo
+                presença da loja.
+              </p>
+              <a
+                href="https://danorte-recife.netlify.app/"
+                target="_blank"
+                class="project-link"
+                >Visitar Site <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card-large">
+            <div class="project-image">
+              <img src="img/mcmari.png" alt="MC Mari" />
+            </div>
+            <div class="project-info">
+              <div class="project-header-info">
+                <h3>Landing Page - MC Mari</h3>
+                <span class="project-badge">📄 Landing Page</span>
+              </div>
+              <p>
+                <strong>🎯 Desafio:</strong> Artista MC Mari precisava de
+                plataforma profissional para apresentação, promoção de shows e
+                engajamento com fãs.
+              </p>
+              <p><strong>✅ Solução:</strong></p>
+              <ul>
+                <li>Landing page profissional com bio</li>
+                <li>Galeria de fotos de shows</li>
+                <li>Feed integrado de redes sociais</li>
+                <li>CTA para contato de book de shows</li>
+                <li>Design atrativo alinhado à identidade artística</li>
+              </ul>
+              <div class="tech-badges">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Design Premium</span>
+              </div>
+              <p>
+                <strong>📊 Resultado:</strong> Página gerando contatos
+                qualificados de promoters e fãs.
+              </p>
+              <a href="#contact" class="project-link"
+                >Contato <i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="project-card">
-        <img src="img/screenshot4.png" alt="Portfólio Fictício">
-        <h3>Portfólio Criativo</h3>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Stack Tecnológico & Habilidades</h2>
+        <p class="section-subtitle">
+          Tecnologias que domino com profundidade + em desenvolvimento contínuo
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>🚀 Frontend (Core)</h3>
+            <p class="skill-level">3+ anos | <strong>Avançado</strong></p>
+            <div class="skills-list">
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">Responsive Design</span>
+              <span class="skill-badge">API Integration</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>💼 Backend & Mobile (Crescimento)</h3>
+            <p class="skill-level">
+              2+ anos | <strong>Intermediário → Avançado</strong>
+            </p>
+            <div class="skills-list">
+              <span class="skill-badge">PHP</span>
+              <span class="skill-badge">MySQL</span>
+              <span class="skill-badge">REST APIs</span>
+              <span class="skill-badge">Flutter</span>
+              <span class="skill-badge">Firebase</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>⚡ E-Commerce Especializado</h3>
+            <p class="skill-level">2+ anos | <strong>Avançado</strong></p>
+            <div class="skills-list">
+              <span class="skill-badge">Carrinho de Compras</span>
+              <span class="skill-badge">Pagamentos Online</span>
+              <span class="skill-badge">Gestão de Produtos</span>
+              <span class="skill-badge">WhatsApp API</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>🔧 Automação & Integrações</h3>
+            <p class="skill-level">1+ ano | <strong>Intermediário</strong></p>
+            <div class="skills-list">
+              <span class="skill-badge">WhatsApp XI</span>
+              <span class="skill-badge">CRM Integration</span>
+              <span class="skill-badge">Lead Capture</span>
+              <span class="skill-badge">Webhooks</span>
+              <span class="skill-badge">IA Tools</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>📦 Deployment & DevOps</h3>
+            <p class="skill-level">3+ anos | <strong>Avançado</strong></p>
+            <div class="skills-list">
+              <span class="skill-badge">Git / GitHub</span>
+              <span class="skill-badge">Vercel</span>
+              <span class="skill-badge">Netlify</span>
+              <span class="skill-badge">GitHub Pages</span>
+              <span class="skill-badge">VS Code</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>💬 Soft Skills & Outros</h3>
+            <p class="skill-level">
+              Constante | <strong>Desenvolvimento</strong>
+            </p>
+            <div class="skills-list">
+              <span class="skill-badge">Comunicação Consultiva</span>
+              <span class="skill-badge">Visão de Negócio</span>
+              <span class="skill-badge">Resolução de Problemas</span>
+              <span class="skill-badge">Inglês Avançado</span>
+              <span class="skill-badge">Foco em ROI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-footer">
+          <p>
+            <strong>🎓 Aprendizado Contínuo:</strong> Node.js | Next.js |
+            TypeScript | Advanced Flutter
+          </p>
+        </div>
       </div>
-      <div class="project-card">
-        <img src="img/mcmari.png" alt="Landing Page MC MARI">
-        <h3>Landing Page Mc Mari</h3>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Vamos Trabalhar Juntos!</h2>
+        <p class="section-subtitle">
+          Estou disponível para: Vagas de Desenvolvedor | Projetos Freelancer |
+          Roles de Automação/Vendas | Consultoria
+        </p>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Entre em Contato</h3>
+            <p>
+              Estou sempre disponível para discutir novos projetos,
+              oportunidades de vaga ou parcerias. Respondo em até 24h.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>WhatsApp</h4>
+                  <a href="https://wa.me/5581971031076" target="_blank"
+                    >(81) 97103-1076</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:gabriellima.sud@gmail.com"
+                    >gabriellima.sud@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Localização</h4>
+                  <p>Recife, Pernambuco - Brasil (Disponível para remoto)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links-footer">
+              <a
+                href="https://www.linkedin.com/in/gabriel-lima-567790209/"
+                target="_blank"
+                title="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/G4brielDev"
+                target="_blank"
+                title="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/gabriell.dev_/"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://wa.me/5581971031076"
+                target="_blank"
+                title="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <p style="text-align: center; margin-bottom: 1.5rem">
+              Ou envie uma mensagem direta agora:
+            </p>
+            <a
+              href="https://wa.me/5581971031076?text=Olá%20Gabriel!%20Gostaria%20de%20conversar%20sobre%20um%20projeto.%20Você%20está%20disponível?"
+              target="_blank"
+              class="btn btn-primary btn-large"
+            >
+              <i class="fab fa-whatsapp"></i> Enviar Mensagem via WhatsApp
+            </a>
+          </div>
+        </div>
       </div>
-       <div class="project-card">
-        <img src="img/loja.png" alt="DaNorte Recife - Loja Virtual">
-        <h3>Loja Virtual - DANORTE Recife</h3>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <h4>Gabriel Lima</h4>
+            <p>Desenvolvedor Web Full Stack & Especialista em Automação</p>
+          </div>
+          <div>
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#hero">Início</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Redes Sociais</h4>
+            <ul>
+              <li>
+                <a href="https://github.com/G4brielDev" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/gabriel-lima-567790209/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/gabriell.dev_/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Gabriel Lima - Todos os direitos reservados</p>
+          <p>
+            Desenvolvido com <strong>HTML5, CSS3, JavaScript</strong> e muito ☕
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- trecho atualizado -->
-  <section id="stack">
-    <h2>Minha Stack</h2>
-    <div class="stack-icons">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" data-tech="html" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" data-tech="css" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" data-tech="javascript" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" data-tech="flutter" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" data-tech="php" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" data-tech="mysql" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQL" data-tech="sql" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" data-tech="github" />
-    </div>
-  
-    <!-- Pop-up flutuante -->
-    <div id="tech-popup" class="popup hidden">
-      <span class="close-popup">&times;</span>
-      <h3 id="popup-title"></h3>
-      <p id="popup-description"></p>
-    </div>
-  </section>
-  
-  
-
-  <section id="contact">
-  <h2>Contato</h2>
-  <p>Entre em contato comigo para parcerias, freelas ou só bater um papo!</p>
-  <a href="https://wa.me/81985307047" target="_blank" class="btn">Me Chame no WhatsApp</a>
-
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/seu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="https://www.instagram.com/seu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/GLima2021" target="_blank"><i class="fab fa-github"></i></a>
-  </div>
-</section>
-
-
-  <footer>
-    <p>&copy; 2025 Gabriel Lima - Todos os direitos reservados</p>
-  </footer>
-
-  <script src="animation.js"></script>
-</body>
+    <script src="animation.js"></script>
+  </body>
 </html>
